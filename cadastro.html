@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+<div class="Login">
+    <form action="Logon.html" method="get" autocomplete="on" onsubmit="senhaOK();" id="form2" name="form1">
+        <div class="logo">
+            <a href="index.html"> <img src="IMG/Alera logo 2.1.png" alt="" width="200px" class="img2"></a>
+        </div>
+        <table>
+            <tr>
+                <label for="user">Nome do usuário</label>
+                <br>
+                <div class="box">
+                    <div class="imputbox">
+                        <input type="text" name="user" id="user" required>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <label for="CPF">CPF</label>
+                <br>
+                <div class="box">
+                    <div class="imputbox">
+                        <input type="text" name="CPF" id="cpf" autocomplete="off" onBlur="ValidarCPF(form1.cpf);" 
+                        onKeyPress="MascaraCPF(form1.cpf);" maxlength="14" required>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <label for="email">E-mail</label>
+                <br>
+                <div class="box">
+                    <div class="imputbox">
+                        <input type="email" name="email" id="email" autocomplete="email" required>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <label for="Senha">Senha</label>
+                <br>
+                <div class="box">
+                    <div class="imputbox">
+                        <input type="password" id="senha" name="Senha" class="imp2" 
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required title=
+                        "Deve conter pelo menos um número, uma letra maiúscula e minúscula e 
+                        pelo menos 8 ou mais caracteres" onchange="confereSenha();">
+                    </div>
+                </div>
+                <label for="Confirma">Confirmar senha</label>
+                <br>
+                <div class="box">
+                    <div class="imputbox">
+                        <input type="password" id="confirma" name="Confirma" class="" required onchange="confereSenha();">
+                    </div>
+                </div>
+                <button type="submit">Confirmar</button>
+                <div id="message">
+                    <h3>A senha deve conter o seguinte:</h3>
+                    <p id="letter" class="invalid">Uma letra <b>minúscula</b></p>
+                    <p id="capital" class="invalid">Uma letra <b>maiúscula</b></p>
+                    <p id="number" class="invalid">Um <b>numero</b></p>
+                    <p id="length" class="invalid">Mínimo <b>8 characteres</b></p>
+                </div>   
+            </tr> 
+        </table>
+    </form>
+</div>
+<script src="JS/forms.js"></script>
+</body>
+</html>

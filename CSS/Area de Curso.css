@@ -1,0 +1,397 @@
+body
+{
+    margin: 0%;
+    background: black;
+}
+.div1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+.cor1
+{
+    background-image: linear-gradient(72deg,rgb(1, 1, 41), blue, rgb(1, 1, 41));
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    border: 2px solid rgb(5, 5, 102);
+}
+.Opcoes{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00d9ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+.div2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;      
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+.texto
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000; 
+}
+.cor2
+{
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+    display: flex;
+    
+}
+label
+{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 30px;
+}
+.lab3
+{
+    margin-left: 2%;
+}
+.lab4
+{
+    margin-left: 1.5%;
+}
+.lab5
+{
+    margin-left: 1.5%;
+}
+.lab6
+{
+    margin-left: 1.5%;
+}
+.lab7
+{
+    margin-left: 14%;
+}
+.lab8
+{
+    margin-left: 2%;
+}
+.lab9
+{
+    margin-left: 2%;
+}
+.div3
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgb(5, 5, 102);
+    background-image: linear-gradient(72deg, blue, rgb(1, 1, 41), blue, rgb(1, 1, 41), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+@keyframes degrade {
+    0%{
+      background-position-x: 0%;
+    }
+    100%{
+      background-position-x: 100%;
+    }
+}
+.div4
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgb(5, 5, 102);
+    background-image: linear-gradient(72deg, blue, rgb(1, 1, 41), blue, rgb(1, 1, 41), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+.div5
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgb(5, 5, 102);
+    background-image: linear-gradient(72deg, blue, rgb(1, 1, 41), blue, rgb(1, 1, 41), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+.div6
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgb(5, 5, 102);
+    background-image: linear-gradient(72deg, blue, rgb(1, 1, 41), blue, rgb(1, 1, 41), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+.cor3
+{
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+    display: flex;
+    
+}
+.div7
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgb(5, 5, 102);
+    background-image: linear-gradient(72deg, blue, rgb(1, 1, 41), blue, rgb(1, 1, 41), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+.div8
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgb(5, 5, 102);
+    background-image: linear-gradient(72deg, blue, rgb(1, 1, 41), blue, rgb(1, 1, 41), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+.div9
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgb(5, 5, 102);
+    background-image: linear-gradient(72deg, blue, rgb(1, 1, 41), blue, rgb(1, 1, 41), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+/*.div10
+{
+    margin-left: 1%;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgba(0, 0, 255, 0.445);
+    background-image: linear-gradient(72deg,  blue, rgb(98, 37, 148), blue, rgb(98, 37, 148), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+} */
+h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00d9ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+label
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00d9ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+    cursor: pointer;
+    width: 304px;
+    height: 504px;
+}
+input[type="checkbox"]{
+    margin-top: 35%;
+    margin-right: 1%;
+    float: right;
+    width: 225px;
+    height: 225px;
+    appearance: none;
+    background: url(../IMG/check\ on.png);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+}
+input:checked[type="checkbox"]{
+    background: url(../IMG/check\ on.png);
+    mix-blend-mode: multiply;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 16px 1px rgba(8, 24, 197, 0.459);
+}
+input
+{
+    width: 274px;
+}
+img
+{
+    mix-blend-mode: screen;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.locked
+{
+    mix-blend-mode: multiply;
+    padding-left: 67%;
+    padding-top: 15%;
+}
+.locked2
+{
+    mix-blend-mode: multiply;
+    padding-left: 67%;
+    padding-top: 15%;
+}
+.locked3
+{
+    mix-blend-mode: multiply;
+    padding-left: 67%;
+    padding-top: 15%;
+}
+.locked4
+{
+    mix-blend-mode: multiply;
+    padding-left: 67%;
+    padding-top: 15%;
+}
+.locked5
+{
+    mix-blend-mode: multiply;
+    padding-left: 67%;
+    padding-top: 15%;
+}
+.locked6
+{
+    mix-blend-mode: multiply;
+    padding-left: 67%;
+    padding-top: 15%;
+}
+.locked7
+{
+    mix-blend-mode: multiply;
+    padding-left: 67%;
+    padding-top: 15%;
+}
+/*.locked8
+{
+    mix-blend-mode: multiply;
+    padding-left: 67%;
+    padding-top: 15%;
+} */
+.limg
+{
+    margin-top: 2%;
+    border: 2px  white;
+    border-style: solid dashed solid dashed;
+    border-radius: 125px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 4px 8px 1px rgb(4, 17, 46);
+    background-color: rgb(3, 3, 117)
+}
+.cor4
+{
+    background-image: linear-gradient(72deg,rgb(1, 1, 41), blue, rgb(1, 1, 41));
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    border: 2px solid rgb(3, 3, 117);
+}
+.div11
+{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+button
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00d9ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+    background: rgb(3, 3, 117);
+    font-size: 50px;
+    border: none;
+    border-radius: 48px;
+    width: 310px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 2px solid rgb(79, 133, 248);
+    box-shadow: 0px 4px 8px 1px rgb(1, 1, 32);
+}
+.butt1:hover
+{
+    background-color: rgb(13, 13, 150);
+}
+.butt1:active
+{
+    background-color: rgb(5, 5, 58);
+}
+.div3:hover
+{
+    border: 2px solid rgb(14, 14, 161) ;
+    box-shadow: 0px 4px 8px 1px rgb(15, 38, 88);
+}
+.div4:hover
+{
+    border: 2px solid rgb(14, 14, 161) ;
+    box-shadow: 0px 4px 8px 1px rgb(15, 38, 88);
+}
+.div5:hover
+{
+    border: 2px solid rgb(14, 14, 161) ;
+    box-shadow: 0px 4px 8px 1px rgb(15, 38, 88);
+}
+.div6:hover
+{
+    border: 2px solid rgb(14, 14, 161) ;
+    box-shadow: 0px 4px 8px 1px rgb(15, 38, 88);
+}
+.div7:hover
+{
+    border: 2px solid rgb(14, 14, 161) ;
+    box-shadow: 0px 4px 8px 1px rgb(15, 38, 88);
+}
+.div8:hover
+{
+    border: 2px solid rgb(14, 14, 161) ;
+    box-shadow: 0px 4px 8px 1px rgb(15, 38, 88);
+}
+.div9:hover
+{
+    border: 2px solid rgb(14, 14, 161) ;
+    box-shadow: 0px 4px 8px 1px rgb(15, 38, 88);
+}
+/*.div10:hover
+{
+    border: 2px solid rgb(0, 0, 0) ;
+    box-shadow: 0px 4px 8px 1px rgb(0, 0, 255);
+} */

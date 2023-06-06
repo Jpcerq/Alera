@@ -1,0 +1,144 @@
+body
+{
+    margin: 0%;
+    background: black;
+}
+audio{
+    opacity: 0;
+    height: 24px;
+    background: url(../IMG/musica.png);
+}
+.logo
+{
+    mix-blend-mode: screen;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.limg
+{
+    margin-top: 2%;
+    border: 2px  white;
+    border-style: solid dashed solid dashed;
+    border-radius: 125px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 4px 8px 1px rgb(4, 17, 46);
+    background-color: rgb(3, 3, 117)
+}
+.div1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+
+.cor1
+{
+    background-image: linear-gradient(72deg,rgb(1, 1, 41), blue, rgb(1, 1, 41));
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    border: 2px solid rgb(3, 3, 117);
+}
+
+.div2
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img1
+{
+    width: 35%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(3, 3, 117);
+}
+
+.div3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;      
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+h2
+{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 30px;
+ color: rgb(255, 255, 255);
+ text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+.texto1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+.texto2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+.texto
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000; 
+}
+
+button
+{
+border-color: rgb(79, 133, 248);
+border-radius: 32px;
+color: rgb(255, 255, 255);
+text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+font-size: 20px;
+background-color: rgb(3, 3, 117);
+width: 310px;
+padding-top: 5%;
+padding-bottom: 5%;
+cursor: pointer;
+transition:0.4s;
+box-shadow: 0px 4px 8px 1px rgb(24, 52, 112);
+}
+.butt2:hover
+{
+    background-color: rgb(13, 13, 150);
+}
+.butt2:active
+{
+    background-color: rgb(5, 5, 58);
+}
+.cursos{
+    border: 2px solid rgb(79, 133, 248) ;
+    box-shadow: 0px 4px 8px 1px rgb(3, 3, 117);
+}
