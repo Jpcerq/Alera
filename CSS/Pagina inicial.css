@@ -1,6 +1,35 @@
+<<<<<<< HEAD
 .logo
 {
     border: 3px solid rgb(255, 255, 255);
+=======
+body
+{
+    margin: 0%;
+    background: black;
+}
+audio{
+    opacity: 0;
+    height: 24px;
+    background: url(../IMG/musica.png);
+}
+.logo
+{
+    mix-blend-mode: screen;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.limg
+{
+    margin-top: 2%;
+    border: 2px  white;
+    border-style: solid dashed solid dashed;
+    border-radius: 125px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 4px 8px 1px rgb(4, 17, 46);
+    background-color: rgb(3, 3, 117)
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 }
 .div1
 {
@@ -16,12 +45,20 @@
 
 .cor1
 {
+<<<<<<< HEAD
     background-image: linear-gradient(72deg,rgb(116, 37, 148), blue, rgb(116, 37, 148));
     padding-bottom: 2%;
     margin-bottom: 2%;
     margin-top: 0%;
     mix-blend-mode: hard-light;
     border: 2px solid rgba(0, 0, 255, 0.445);
+=======
+    background-image: linear-gradient(72deg,rgb(1, 1, 41), blue, rgb(1, 1, 41));
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    border: 2px solid rgb(3, 3, 117);
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 }
 
 .div2
@@ -47,7 +84,11 @@
     margin-right: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
+<<<<<<< HEAD
     border: 2px solid rgba(0, 68, 255, 0.623);
+=======
+    border: 2px solid rgb(3, 3, 117);
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 }
 
 .div3
@@ -65,8 +106,13 @@ h2
 {
  font-family: 'Courier New', Courier, monospace;
  font-size: 30px;
+<<<<<<< HEAD
  color: rgb(0, 0, 0);
  text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #ffffff;
+=======
+ color: rgb(255, 255, 255);
+ text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 }
 .texto1
 {
@@ -89,22 +135,37 @@ p
 .texto
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
     text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #ffffff; 
+=======
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000; 
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 }
 
 button
 {
+<<<<<<< HEAD
 color: rgb(255, 255, 255);
 text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
 font-size: 20px;
 background-color: rgb(18, 85, 209);
 border: none;
 border-radius: 20%;
+=======
+border-color: rgb(79, 133, 248);
+border-radius: 32px;
+color: rgb(255, 255, 255);
+text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+font-size: 20px;
+background-color: rgb(3, 3, 117);
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 width: 310px;
 padding-top: 5%;
 padding-bottom: 5%;
 cursor: pointer;
+<<<<<<< HEAD
 transition: background 0.3s;
 }
 .butt1
@@ -126,4 +187,20 @@ transition: background 0.3s;
 .butt2:active
 {
     background-color: rgba(15, 23, 139, 0.774);
+=======
+transition:0.4s;
+box-shadow: 0px 4px 8px 1px rgb(24, 52, 112);
+}
+.butt2:hover
+{
+    background-color: rgb(13, 13, 150);
+}
+.butt2:active
+{
+    background-color: rgb(5, 5, 58);
+}
+.cursos{
+    border: 2px solid rgb(79, 133, 248) ;
+    box-shadow: 0px 4px 8px 1px rgb(3, 3, 117);
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 }

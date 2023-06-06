@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <title>Logon</title>
+</head>
+<body> 
+<div class="Login">
+    <form action="Area de Curso.html" method="post" name="form1">
+        <div class="logo">
+            <a href="index.html"> <img src="IMG/Alera logo 2.1.png" alt="" width="200px" class="img2"></a>
+        </div>
+        <table>
+            <tr>
+                <label for="CPF">CPF</label>
+                <br>
+                <div class="box">
+                    <div class="imputbox">
+                        <input type="text" name="CPF" id="cpf" autocomplete="off" onBlur="ValidarCPF(form1.cpf);" 
+                        onKeyPress="MascaraCPF(form1.cpf);" maxlength="14" required>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <label for="Senha">Senha</label>
+                <br>
+                <div class="box">
+                    <div class="imputbox">
+                        <input type="password" name="Senha" maxlength="8" class="imp2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    </div>
+                </div>
+                <a href="Recuperar.html" class="a2">Esqueceu a senha?</a>
+                <br>
+                <button type="submit">Enviar</button>
+                <br>
+                <p class="p2">Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>  
+            </tr>
+        </table>
+    </form>
+</div>
+<script src="JS/CPF.js"></script>
+</body>
+</html>

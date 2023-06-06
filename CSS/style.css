@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+body
+{
+    margin: 0%;
+    background: url(../IMG/giphy.gif);
+    background-size: 34%;
+}
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 .Login
 {
 display: flex;
@@ -5,6 +14,7 @@ justify-content: center;
 }
 .logo
 {
+<<<<<<< HEAD
 width: 50px;
 display: flex;
 align-items: center;
@@ -26,4 +36,138 @@ form
 background-image: linear-gradient(72deg,rgb(116, 37, 148), blue, rgb(116, 37, 148));    
 border: 2px solid rgba(0, 0, 255, 0.445);
 padding: 5px;
+=======
+margin-top: 2%;
+margin-left: 25%;
+border: 2px white;
+border-style: solid dashed solid dashed;
+border-radius: 125px;
+width: 250px;
+height: 250px;
+display: flex;
+align-items: center;
+padding-bottom: 2%;
+margin-bottom: 15%;
+box-shadow: 0px 4px 8px 1px rgb(4, 17, 46);
+background-color: rgb(3, 3, 117)
+}
+.img1
+{
+    transform: rotate(180deg);
+    
+}
+.img2{
+    margin-left: 13%;
+    margin-top: 5%;
+    mix-blend-mode: screen;
+}
+label
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+    font-size: 20px;
+    margin-left: 14.5%;
+}
+p
+{
+    color: #bbcdff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.p3
+{
+    color: #bbcdff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+input
+{
+    position: relative;
+    width: 97%;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    padding: 1px 1px;
+    border-radius: 2px;
+}
+.imp2
+{
+    margin-bottom: 0%;
+}
+form
+{
+background-image: linear-gradient(72deg,rgb(1, 1, 41), blue, rgb(1, 1, 41));    
+border: 2px solid rgb(5, 5, 102);
+padding: 5px;
+width: 500px;
+height: 708px;
+}
+button
+{
+    width: 100px;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+    background: rgb(3, 3, 117);
+    border-color: rgb(79, 133, 248);
+    border-radius: 8px;
+    transition: 0.4s;
+    box-shadow: 0px 4px 8px 1px rgb(1, 1, 32);
+    cursor: pointer;
+    margin-left: 14.5%;
+}
+.box{
+    position: relative;
+    width: 350px;
+    margin-bottom: 2%;
+    margin-left: 14.5%;
+}
+.box .imputbox
+{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 1px rgb(1, 1, 32);
+}
+#message {
+    display: none;
+    background: rgb(18, 18, 185);
+    color: rgb(255, 255, 255);
+    position: relative;
+    width: 480px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10%;
+    box-shadow: 0px 4px 8px 1px rgb(1, 1, 32);
+    border: 2px solid rgb(79, 133, 248);
+}
+h3{
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px rgb(0, 0, 0);
+}
+#message p {
+    padding: 10px 35px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.valid {
+    color: rgb(3, 3, 117);
+}
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: url(../IMG/verifica.png);
+}
+.invalid {
+    color: rgb(255, 255, 255);
+}
+  
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: url(../IMG/cancelar.png);
+>>>>>>> 0087118507cbd43cacbdfb74ca7462b34c01be0f
 }
