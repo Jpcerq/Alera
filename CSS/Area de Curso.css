@@ -1,0 +1,201 @@
+.div1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+.cor1
+{
+    background-image: linear-gradient(72deg,rgb(116, 37, 148), blue, rgb(116, 37, 148));
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    mix-blend-mode:hard-light;
+    border: 2px solid rgba(0, 0, 255, 0.445);
+}
+.Opcoes{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00d9ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+.div2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;      
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+.texto
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #1100ff, -1px 1px 1px #6e1691, -1px -1px 1px #ffffff; 
+}
+.cor2
+{
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+    mix-blend-mode: hard-light;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+label
+{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 30px;
+}
+.div3
+{
+    width: 280px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-left: 25px;
+    border: 2px solid rgba(0, 0, 255, 0.445);
+    background-image: linear-gradient(72deg, blue, rgb(98, 37, 148), blue, rgb(98, 37, 148), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+
+}
+@keyframes degrade {
+    0%{
+      background-position-x: 0%;
+    }
+    100%{
+      background-position-x: 100%;
+    }
+}
+.div4
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgba(0, 0, 255, 0.445);
+    margin-left: 5px;
+    background-image: linear-gradient(72deg, blue, rgb(98, 37, 148), blue, rgb(98, 37, 148), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+.div5
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgba(0, 0, 255, 0.445);
+    background-image: linear-gradient(72deg, blue, rgb(98, 37, 148), blue, rgb(98, 37, 148), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+.div6
+{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 2px solid rgba(0, 0, 255, 0.445);
+    margin-right: 20px;
+    background-image: linear-gradient(72deg,  blue, rgb(98, 37, 148), blue, rgb(98, 37, 148), blue);
+    background-size: 500% 100%;
+    animation: degrade 10s infinite alternate ;
+    transition: border 0.3s;
+}
+h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00d9ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+}
+label
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00d9ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+    cursor: pointer;
+}
+img
+{
+    border: 3px solid rgb(255, 255, 255);
+}
+.cor3
+{
+    background-image: linear-gradient(72deg,rgb(98, 37, 148), blue, rgb(98, 37, 148));
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    mix-blend-mode: hard-light;
+    border: 2px solid rgba(0, 0, 255, 0.445);
+}
+.div7
+{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+button
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00d9ff, -1px 1px 1px #6e1691, -1px -1px 1px #000000;
+    background-color: rgb(18, 18, 209);
+    font-size: 50px;
+    border: none;
+    border-radius: 15%;
+    width: 310px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    
+}
+.butt1:hover
+{
+    background-color: rgba(0, 12, 177, 0.774);
+}
+.butt1:active
+{
+    background-color: rgba(10, 18, 126, 0.774);
+}
+.div3:hover
+{
+    border: 2px solid rgb(0, 0, 0) ;
+    box-shadow: 0px 4px 8px 1px rgb(0, 0, 255);
+}
+.div4:hover
+{
+    border: 2px solid rgb(0, 0, 0) ;
+    box-shadow: 0px 4px 8px 1px rgb(0, 0, 255);
+}
+.div5:hover
+{
+    border: 2px solid rgb(0, 0, 0) ;
+    box-shadow: 0px 4px 8px 1px rgb(0, 0, 255);
+}
+.div6:hover
+{
+    border: 2px solid rgb(0, 0, 0) ;
+    box-shadow: 0px 4px 8px 1px rgb(0, 0, 255);
+}

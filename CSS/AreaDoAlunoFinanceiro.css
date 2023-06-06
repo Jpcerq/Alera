@@ -1,0 +1,89 @@
+#fnome{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#femail{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#fcpf{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#fcartao{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.linhas{
+    margin-left: 200px;
+}
+
+#snome{
+    margin-left: 220px;
+}
+
+.financeiro label{
+    display:inline-block;
+     width:70px;
+    
+    text-align:left;
+    }
+        
+    fieldset{
+    border:none;
+    width:500px;
+    margin:0px auto;
+}
+
+#bsalvar{
+    height: 60px;
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    margin-left: 210px;
+    display:inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 10px 16px 12px;
+    border-radius: 24px;
+    line-height: 1px;
+}
+
+#bedit{
+    height: 60px;
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    margin-left: 20px;
+    display:inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 10px 16px 12px;
+    border-radius: 24px;
+    line-height: 1px;
+}
+
+
+#bsalvar:hover{
+    background: rgba(255,255,255, 0.08);
+    }
+
+#bedit:hover{
+    background: rgba(255,255,255, 0.08);
+    }
+
+ 

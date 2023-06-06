@@ -1,0 +1,86 @@
+.banner
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+
+.corbanner
+{
+    background-image: linear-gradient(72deg,rgb(116, 37, 148), blue, rgb(116, 37, 148));
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+    mix-blend-mode:hard-light;
+    border: 2px solid rgba(0, 0, 255, 0.445);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+.sidebar{
+    position: fixed;
+    top: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    height: 100%;
+    padding: 40px 0px 30px 10px;
+    border-right: 1px solid #2f3336;
+}
+
+.sidebar button{
+    height: 60px;
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+}
+
+.sidebar button > span {
+    display:inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 10px 16px 12px;
+    border-radius: 24px;
+    line-height: 1px;
+}
+
+.sidebar button:hover > span{
+background: rgba(255,255,255, 0.08);
+}
+
+.sidebar button i{
+    position: relative;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.sidebar button span{
+font-size: 16px;
+}
+
+.sidebar > nav{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}

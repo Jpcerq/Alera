@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Area do aluno.css">
+    <link rel="stylesheet" href="CSS/AreaDoAlunoFinanceiro.css">
+    <title>Document</title>
+
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+  />
+
+</head>
+
+
+<body>
+    <div class="corbanner">
+        <div class="banner">
+            <a href="index.html"> <img src="IMG/Alera logo 2.png" alt="" width="95px"></a>
+            <br>
+        </div>
+    </div>
+
+   <div class = "sidebar">
+    <a href="areadoalunoassinaturass.html">
+    <nav>
+        <button> 
+            <span>
+                <i class="material-symbols-outlined">apps</i>
+                <span>Suas assinaturas</span>
+            </span>
+        </button>
+    </a>
+    
+        <a href="AreaDoAlunoFinanceiro.html">
+        <button>
+            <span>
+                <i class="material-symbols-outlined">add</i>
+                <span>Financeiro</span>
+            </span>
+        </button>
+        </a>
+    <a href="areadoalunosair.html">
+        <button>
+            <span>
+                <i class="material-symbols-outlined">cancel</i>
+                <span>Sair da conta</span>
+            </span>
+        </button>
+    </a>
+    </nav>
+   </div>
+
+   <div class="financeiro">
+
+    <label for="nome"id="snome">Seu nome: </label>
+    <input name="nome" id="fnome" type="text"></input>
+    <hr class="linhas">
+
+    <label for="email" id="snome">Seu email: </label>
+    <input name="email" id="femail" type="text"></input>
+    <hr class="linhas">
+
+    <label for="cpf" id="snome">Seu CPF: </label>
+    <input oninput="cpfs(this)" name="cpf" id="fcpf" type="text" autocomplete="off"></input>
+    <hr class="linhas">
+
+    <label  for="cart" id="snome">Seu cartão: </label>
+    <input oninput="carts(this)" name="cart" id="fcartao" type="text"></input>
+    <hr class="linhas">
+
+    <button id="bsalvar">
+        <i class="material-symbols-outlined">save</i>
+    </button>
+    <button id="bedit">
+        <i class="material-symbols-outlined">edit</i>
+    </button>
+   </div>
+    
+<script src="JS/ADAFinanceiro.js"></script>
+
+</body>
+</html>
